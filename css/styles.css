@@ -85,6 +85,10 @@ img{
 }
 
 /* HEADER */
+.header {
+    border-bottom: 1px solid #ececec ;
+  }
+
 .header__container {
     display: flex;
     align-items: center;
@@ -105,7 +109,7 @@ img{
 .logo--black {
     color: var(--black-color);
 }
-.logo__white {
+.logo--white {
     color: var(--primary-white-color);
 }
 
@@ -534,6 +538,7 @@ height: 70px;
     color: var(--primary-white-color);
 }
 
+
 .footer-social {
     margin-left: 70px;
 }
@@ -556,12 +561,12 @@ background-color: var(--accent);
 
 /* ФОРМА ФУТЕРА */
 
-.footer-form {
+.footer-form-container {
     margin-left: auto;
 }
 
 
-.footer-form__wrapper {
+.footer-form {
     display: flex;
 }
 
@@ -886,8 +891,6 @@ background-color: var(--accent);
     background-color: var(--secondary-bg-color);
     color: inherit;
 
-    
-
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
@@ -913,11 +916,15 @@ background-color: var(--accent);
     margin: -15px;
 }
 
+.grid__item {
+    margin: 15px;
+    display: block;
+    max-width: 100%;
+}
 
 .examples-card {
     display: block;
     text-decoration: none;
-    margin: 15px;
 
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -927,8 +934,6 @@ background-color: var(--accent);
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 
 }
-
-
 
 .examples-card__wrapper {
     padding-top: 20px;

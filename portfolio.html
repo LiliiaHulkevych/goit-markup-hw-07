@@ -54,7 +54,7 @@
 <!-- Приклади робіт -->
 
         <ul class="list grid">
-            <li>
+            <li class="grid__item">
               <a href="" class="examples-card">
                 <div class="examples-card__thumb">
                   <img src="./img/img8.jpg" alt="лого" width="370" height="294">
@@ -66,7 +66,7 @@
                 </div>
               </a>
             </li>
-            <li>
+            <li class="grid__item">
               <a href="" class="examples-card">
                 <div class="examples-card__thumb">
                   <img src="./img/img9.jpg" alt="лого" width="370" height="294">
@@ -78,7 +78,7 @@
                 </div>
               </a>
             </li>
-            <li>
+            <li class="grid__item">
               <a href="" class="examples-card">
                 <div class="examples-card__thumb">
                   <img src="./img/img10.jpg" alt="лого" width="370" height="294">
@@ -90,7 +90,7 @@
                 </div>
               </a>
             </li>
-            <li>
+            <li class="grid__item">
               <a href="" class="examples-card">
                 <div class="examples-card__thumb">
                   <img src="./img/img11.jpg" alt="лого" width="370" height="294">
@@ -102,7 +102,7 @@
                 </div>
               </a>
             </li>
-            <li>
+            <li class="grid__item">
               <a href="" class="examples-card">
                 <div class="examples-card__thumb">
                   <img src="./img/img12.jpg" alt="лого" width="370" height="294">
@@ -114,7 +114,7 @@
                 </div>
               </a>
             </li>
-            <li>
+            <li class="grid__item">
               <a href="" class="examples-card">
                 <div class="examples-card__thumb">
                   <img src="./img/img13.jpg" alt="лого" width="370" height="294">
@@ -126,7 +126,7 @@
                 </div>
               </a>
             </li>
-            <li>
+            <li class="grid__item">
               <a href="" class="examples-card">
                 <div class="examples-card__thumb">
                   <img src="./img/img14.jpg" alt="лого" width="370" height="294">
@@ -138,9 +138,9 @@
                 </div>
               </a>
             </li>
-            <li>
+            <li class="grid__item">
               <a href="" class="examples-card">
-                <div class="examples-card__thumb">examples-card
+                <div class="examples-card__thumb">
                   <img src="./img/img15.jpg" alt="лого" width="370" height="294">
                   <p class="examples-card__overlay">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                 </div>
@@ -150,7 +150,7 @@
                 </div>
               </a>
             </li>
-            <li>
+            <li class="grid__item">
               <a href="" class="examples-card">
                 <div class="examples-card__thumb">
                   <img src="./img/img16.jpg" alt="лого" width="370" height="294">
@@ -162,15 +162,17 @@
                 </div>
               </a>
             </li>
-        </ul>      
+        </ul>   
       </div>
     </section>
   </main>
+
     <!-- Футер -->
+  <!-- Футер -->
   <footer class="footer">
     <div class="container footer__container">
       <div>
-        <a href="" class="logo">Web<span class="logo__white">Studio</span></a>
+        <a href="" class="logo">Web<span class="logo--white">Studio</span></a>
         <address class="adress">г. Киев, пр-т Леси Украинки, 26</address>
         <ul class="list contacts--footer">
           <li class="contacts__item--footer"><a href="mailto:info@devstudio.com" class="contacts__link--footer">info@devstudio.com</a></li>
@@ -207,25 +209,23 @@
               <svg class="social__icon social__icon--white">
                 <use href="./img/sprite.svg#icon-linkedin"></use>
               </svg>
-             </a>
-           </li>
+            </a>
+          </li>
         </ul>
       </div>
 
-      <div class="footer-form">
+      <div class="footer-form-container">
         <h3 class="footer__title">Подпишитесь на рассылку</h3>
-      <form name="footer-form">
-        <div class="footer-form__wrapper">
+      <form name="footer-form" class="footer-form">
           <input type="email" class="footer-form__input" name="email" placeholder="E-mail"/>
           <button type="submit" class="footer-form__button">Подписаться
             <svg class="footer-form__icon">
               <use href="./img/sprite.svg#icon-telegram"></use>
             </svg>
           </button>
-        </div>
       </form>
       </div>
-    </div>
+  </div>
   </footer>
 </body>
 </html>
